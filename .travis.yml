@@ -1,0 +1,26 @@
+lenguage: node_js
+
+cache:
+  directories: 
+    - node_modules
+    - ~/.npm
+
+node_js:
+  - '15'
+
+git: 
+  depth: 3
+
+
+notifications:
+  slack: projects-sra5004:I2LYiUcJdFeiL3uSlVHbknBh
+
+deploy:
+  provide: heroku
+  skip-cleanup: true
+  keep-history: true
+  api_key: 7748cc9b-8eb6-4a2a-ab71-669d93a0c197
+  app: continuous-integration
+  on: 
+    repo: ClariseT/Beweis
+    branch: main
