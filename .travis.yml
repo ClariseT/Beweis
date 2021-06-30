@@ -13,13 +13,15 @@ git:
 
 
 notifications:
-  slack: projects-sra5004:I2LYiUcJdFeiL3uSlVHbknBh
+  slack:
+    secure: "W6mHFsGa1zxHXW9lUA6BEPUlEWbl662yCMHWN/Z3w/DCJOjXbmHXyW+fbdBOPLM+g6UV9pdQXOn5m06wBHi+cNphht156nhdxXZktu9R2e7PsKDdQcycW8zs1dQ/k0+a8sOqLXkdITQdE75kSDbcHep2vTECc2KWWLNo3m4EW0cplRXor7/rXqqQQSdUwI8fVAe3MtMm5IZndSZ+F7B+7M+DqWCwPzfGD+A1mJrbqXxrcKw2HhPFM9VFv1PvJqNkauluvX6sREDWsUI/ORzMraBcU8bSrSTfSnMvaew1uD4j4G7KNUnTOysvGB97SdanKulB22Wzf/Kro2r7Aja8PjPdCvu1lGNg9plbtflQR/Aa0mG8XacQLnnU1yZagd3wBtq8MhtV9NVaYKRVYAetFgtPVFxM+KceR7OwGz2gtcGrZ5uuDFhrfkDb6Uno51d1RdT2y1qvk38UOkHcNTfj+34/wCZiUj6Ske2JP6F9hjEhlPKA2KNb5bi0KFTxfBeI8P9nbuaRAMQDk9++MnCDc3jVmX5uA3+Br+YliIVPjNBgzKKcaCFVcXLEAFOu0hXPJ2YAKlgm4iI+Zta6ExRA9NvW/zaDqZncFRSIMGi/6JtqWac9tIR8mhwg9oiS5Je5OZdCY7DNzIgyDP2qMrapqyfG76LJgk5IThGNvuiU6dM=" 
 
 deploy:
   provide: heroku
   skip-cleanup: true
   keep-history: true
-  api_key: 7748cc9b-8eb6-4a2a-ab71-669d93a0c197
+  api_key: 
+    secure: "Q0/3byTJHLR43nnvY0cchM7akc1Wez4nGpoqBnqkuYjHC8elZQi1rQW4agIrkpn5zpww8Q8g7DegdvsONzFNymcEMbErJgEUb6VNm27CQcPg5O8t3BY4/BA+8Q+6m7DTP+j+j0ucQcUi+oeb7hRYspi+Orr2gs+B7NwB0StKDP0lOH5keDHfdUd5MTv/OF6Agq2a1k1qWQvuwz9oW/GJLsK/mlUQB+Tmzkvn1Tk7S+JyCXIMqbH7yn56zkGvPxFz9yJmPa/g4LpoWcP4OokaLGznn+zyz2+/DrBJRpOf7zocKZCS5FemY9Zdvet7UZJB6Y9yHKLVMcYf1zgV4hmDfW7jXR8gVGJeqY4DDjB+sB6ra1G5duQkUIF2780H2KQWmTVyX6fdS0yA5hPycnulAC1C4a2qzy76qQ2mSgMCQOu+0Eo/mfMqduo9ty7xzFTpPUzhmCquJy81ICPrhgbwGkAU55Dbt/UrLpfI3XiMSKmlpsrGxixp9FbHedkDUqUhi4M6ntRoou8ND915MLWkPxoYj7JM0BlTQrVLC7QO8PGHCYCIdREHZ6g4EHW+og+/WQ+kM/VJdkOinVTTIsRwPyLGRbhFC6PcdlOo3igTkkD1UobwdnAJmlCdIpSEuZs6InTh9E8qb1Bm9L7yeqmZfYDllhCrabzACDkF/S3ivP0="
   app: continuous-integration
   on: 
     repo: ClariseT/Beweis
