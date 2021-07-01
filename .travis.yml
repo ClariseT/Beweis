@@ -20,8 +20,7 @@ deploy:
   provide: heroku
   skip-cleanup: true
   keep-history: true
-  api_key: 
-    secure: "Mj6/AsZqqWVrYa8OpHXDRp6hNSIu7obtiV9Phu7ZgeCcuBXii4g52J+PkZ7n1TlKNUihUXHIatEazwAZx1RG/Flvu5+q5HgHljKsz7ezkUWURF4QMCbYWfDpMoxYUxgqm+4TP/sbc+nTfBp8ba1Z5cshNBCw6uEokJPFWDYCgrqMl4wu+IxaX8gr06LGbspc99HRzCgpWq4YCUavaLjjDLzWK8Y6MzktyJnTMVgtgirCKS0w3vFlSLs/ddD1AqdMogXiWoQz809JNajF+suLWFaADBWCWpY0Phm44cHZ1wWDUJvlQ4hx54JnEy58jIgJBeZerYRPiQXqZNLY2TR1qd57AlurQgpBfE3hPYBjrqudwSS2M3+Bxuu1WqOHcCBF3irEqlusUvEkHpPVcMHm4GfD/Kkf+Nh326MzODM3QRjYY5DC94m6hb+zrKRCqq1HJ8J1QdWJdgpuD+QEWNo5rNLiVlaAhgZIypDeoJOdKkCc4dNNw65nluMm8SxVKJ7/3GgP63l0/qPa3EaH7h8VYioOJG+kc2EhR70kXGsn1PNlt3ZW5HCffC06j67/JwxyQGSkRHufCENXwwso1Qy2YfwSb0jAcKqdDc1DxK0PVOL24YkDsU3Z96ZiTtGG1HpZlx3bBW6hHgV91hT9mgShlgh5A3BZRWb9PPbb9RYMdFk="
+  api_key: 7748cc9b-8eb6-4a2a-ab71-669d93a0c197
   app: continuous-integration
   on: 
     repo: ClariseT/Beweis
