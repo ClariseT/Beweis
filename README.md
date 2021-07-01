@@ -12,4 +12,4 @@
   * [slack](https://slack.com/intl/es-ar/)
   
   ----- 
-  ###### *:copyright: [Clarise](https://github.com/ClariseT)* 
+  ###### *:copyright: [𝕮𝖑𝖆𝖗𝖎𝖘𝖊](https://github.com/ClariseT)* 
