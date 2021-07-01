@@ -7,7 +7,7 @@ app.set('port', process.env.PORT || 8080);
 
 app.get('/', (req, res)=> {
     const mod = op.mod(4,2)
-    res.send('El resultado de la operacion es '+ mod.toString())
+    res.send('El resultado de la operacion es: '+ mod.toString())
 }); 
 
 
