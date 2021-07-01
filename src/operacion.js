@@ -1,5 +1,5 @@
- function modulo (a, b){
+ function mod (a, b){
         return a % b;
         }
 
-        module.exports = {modulo}
+        module.exports = {mod}
