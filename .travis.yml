@@ -13,8 +13,7 @@ git:
 
 
 notifications:
-  slack:
-    secure: projects-sra5004:I2LYiUcJdFeiL3uSlVHbknBh 
+  slack: projects-sra5004:I2LYiUcJdFeiL3uSlVHbknBh 
 
 deploy:
   provide: heroku
