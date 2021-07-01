@@ -11,6 +11,8 @@ node_js:
 git: 
   depth: 3
 
+script:
+  - npm run test
 
 notifications:
   slack: projects-sra5004:I2LYiUcJdFeiL3uSlVHbknBh 
