@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "node src/server.js",
+    "dev": "npm run test && node src/server.js",
     "test": "mocha ./src/test ",
     "start": "node src/server.js"
   },
